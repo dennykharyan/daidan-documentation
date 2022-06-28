@@ -17,7 +17,21 @@ You can connect directly to the server using [PuTTY](https://www.chiark.greenend
 ------
 ![alt text](/img/putty-configuration.png "putty configuration")
 
-# project directory
+# project root directory
+The project root directory is in 
+```
+/usr/share/nginx/
+```
+![alt text](/img/project-root.png "project root")
+
+At the moment there is only two active directory that currently using, 
+```
+/usr/share/nginx/daidangroup
+```
+and
+```
+/usr/share/nginx/daidangroup-finacc
+```
 # database
 # efiling directory
 # /usr/share/nginx/daidangroup
