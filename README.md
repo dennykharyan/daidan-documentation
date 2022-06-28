@@ -15,7 +15,7 @@
 
 You can connect directly to the server using [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) either in local network or trought VPN connection. For the VPN connection detail you can ask to the Administrator. Here is the example of PuTTY configuration:
 ------
-![alt text](https://github.com/dennykharyan/daidan-documentation/blob/main/img/putty-config.png, "putty configuration")
+![alt text](https://github.com/dennykharyan/daidan-documentation/blob/main/img/putty-config.png "putty configuration")
 
 # project directory
 # database
