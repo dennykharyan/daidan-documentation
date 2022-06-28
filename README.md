@@ -13,7 +13,7 @@
     <tr><td>Firewall</td><td>none</td></tr>
 </table>
 
-If you in the local network you can just connect to the server directly using [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+You can connect directly to the server using [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) either in local network or trought VPN connection. For the VPN connection detail you can ask to the Administrator.
 
 # project directory
 # database
