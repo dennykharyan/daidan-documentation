@@ -13,7 +13,7 @@
     <tr><td>Firewall</td><td>none</td></tr>
 </table>
 
-<p class="text-justify">If you in the local network you can just connect to the server directly using [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)</p>
+If you in the local network you can just connect to the server directly using [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
 # project directory
 # database
