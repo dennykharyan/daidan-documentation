@@ -24,7 +24,7 @@ The project root directory is in
 ```
 ![alt text](/img/project-root.png "project root")
 
-At the moment there is only two active directory that currently using, 
+At the moment there is only two active directory that currently used, 
 ```
 /usr/share/nginx/daidangroup
 ```
@@ -32,6 +32,8 @@ and
 ```
 /usr/share/nginx/daidangroup-finacc
 ```
+
+each directory stored in [daidangroup](https://github.com/itdaidangrup/daidangroup) and [daidangroup-finacc](https://github.com/itdaidangrup/daidangroup-finacc). You can login with `it@daidangrup.com` github account to see what in it.
 # database
 # efiling directory
 # /usr/share/nginx/daidangroup
