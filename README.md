@@ -1,4 +1,4 @@
-[title](https://github.com/dennykharyan/daidan-documentation "Daidan Projects Documentation")
+["Daidan Projects Documentation"](https://github.com/dennykharyan/daidan-documentation "Daidan Projects Documentation")
 
 
 # global configuration
