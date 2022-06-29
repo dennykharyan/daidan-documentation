@@ -33,7 +33,19 @@ and
 /usr/share/nginx/daidangroup-finacc
 ```
 
-each directory stored in [daidangroup](https://github.com/itdaidangrup/daidangroup) and [daidangroup-finacc](https://github.com/itdaidangrup/daidangroup-finacc). You can login with `it@daidangrup.com` github account to see what in it.
+each directory stored in [daidangroup](https://github.com/itdaidangrup/daidangroup) and [daidangroup-finacc](https://github.com/itdaidangrup/daidangroup-finacc). You can login with `it@daidangrup.com` github account to see what's in it.
+
+## creating new directory
+typically we sync the project directory with github so we can easly pull from the repository. For example we will create new peoject directory in project root directory using 
+```
+git clone https://github.com/itdaidangrup/daidangroup.git
+```
+the git will create new folder exactly same with repository name
+
+When all file successfully cloned to local repository, then you should make a configuration file so the web server can managed to access the directory. The config file is placed in 
+```
+/etc/nginx/conf.d/
+```
 # database
 # efiling directory
 # /usr/share/nginx/daidangroup
