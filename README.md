@@ -63,6 +63,7 @@ Here is the example of basic configuration file
 1. Port Listening
 
 As you can see, the configuration file contain information for where the project stored and what port should user use to access the application. Because we using PHP as programming language, we should still listen to port 80 as written on line 3. In the next line you can add which port the user can access the application, in this example we using port 8006. You dont need to setup the firewall in this documentation, because all this projects only be able to access throught VPN connection so we decided not to use firewall. 
+
 2. Project Root Path
 
 On line 7 as you can see we tell the server which folder that contain the application, in this case the public root project is in `/usr/share/nginx/daidangroup/public`. Make sure that you can access the directory by see the owner of the folder.
@@ -71,6 +72,26 @@ On line 7 as you can see we tell the server which folder that contain the applic
 
 On The next line we defined what kind of acceptable file format. If the new project is using another programming language you can set the entry point with this way. You can read the documentation of which programming language you used.
 
-# database
-# efiling directory
+# Database
+Currently the database is stored in different engine and different IP Address. You can see the computer on 192.168.1.53 address to see how the database should look like.
+<table>
+    <tr><trd>Engine</trd><td>SQL SERVER 2008 R2</td></tr>
+    <tr><trd>IP Address</trd><td>192.168.1.53</td></tr>
+    <tr><trd>Port</trd><td>1433</td></tr>
+    <tr><trd>Username</trd><td>daidan</td></tr>
+    <tr><trd>Password</trd><td>daidangrup</td></tr>
+    <tr><trd>Database Name</trd><td>daidangrupdb</td></tr>
+</table>
+
+Here is the capture of the database from my local machine at this time.
+![alt text](/img/databases.PNG "Database")
+
+Currently we use same database for every project, so if you change something in a table, it might bee affect to all projects. You need to understand both project structure first before make any change in any table.
+
+# Efiling Directory
+## How The Efiling Work
+We using FTP Server to transfer all file that needed in both projects and the root directory is in
+![alt text](/img/ftp-root.png "FTP Root Directory")
+## Accessing The Efiling Directory
+
 # /usr/share/nginx/daidangroup
