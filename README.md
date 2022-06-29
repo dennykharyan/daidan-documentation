@@ -13,7 +13,7 @@
     <tr><td>Firewall</td><td>none</td></tr>
 </table>
 
-<p class="text-justify">
+<p style="text-align: justify; text-justify: inter-word;">
 You can connect directly to the server using <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a> either in local network or trought VPN connection. For the VPN connection detail you can ask to the Administrator. Here is the example of PuTTY configuration:
 </p>
 
@@ -36,7 +36,10 @@ and
 /usr/share/nginx/daidangroup-finacc
 ```
 
-Each directory stored in [daidangroup](https://github.com/itdaidangrup/daidangroup) and [daidangroup-finacc](https://github.com/itdaidangrup/daidangroup-finacc). You can login with `it@daidangrup.com` github account to see what's in it.
+<p style="text-align: justify; text-justify: inter-word;">
+Each directory stored in <a href="https://github.com/itdaidangrup/daidangroup">daidangroup</a> and [daidangroup-finacc] (https://github.com/itdaidangrup/daidangroup-finacc). You can login with `it@daidangrup.com` github account to see what's in it.
+</p>
+
 
 ## Creating New Directory
 Typically we sync the project directory with github so we can easly pull from the repository. For example we will create new peoject directory in project root directory using 
