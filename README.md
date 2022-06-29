@@ -13,9 +13,7 @@
     <tr><td>Firewall</td><td>none</td></tr>
 </table>
 
-<p style="text-align: justify; text-justify: inter-word;">
-You can connect directly to the server using <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a> either in local network or trought VPN connection. For the VPN connection detail you can ask to the Administrator. Here is the example of PuTTY configuration:
-</p>
+You can connect directly to the server using [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) either in local network or trought VPN connection. For the VPN connection detail you can ask to the Administrator. Here is the example of PuTTY configuration:
 
 
 ![alt text](/img/putty-configuration.png "putty configuration")
@@ -37,8 +35,8 @@ and
 ```
 
 <p style="text-align: justify; text-justify: inter-word;">
-Each directory stored in <a href="https://github.com/itdaidangrup/daidangroup">daidangroup</a> and [daidangroup-finacc] (https://github.com/itdaidangrup/daidangroup-finacc). You can login with `it@daidangrup.com` github account to see what's in it.
 </p>
+Each directory stored in [daidangroup](https://github.com/itdaidangrup/daidangroup) and [daidangroup-finacc] (https://github.com/itdaidangrup/daidangroup-finacc). You can login with `it@daidangrup.com` github account to see what's in it.
 
 
 ## Creating New Directory
@@ -67,9 +65,7 @@ Here is the example of basic configuration file
 ![alt text](/img/conf-d-example.PNG "Config file example")
 
 1. Port Listening\
-<p class="text-justify">
 As you can see, the configuration file contain information for where the project stored and what port should user use to access the application. Because we using PHP as programming language, we should still listen to port 80 as written on line 3. In the next line you can add which port the user can access the application, in this example we using port 8006. You dont need to setup the firewall in this documentation, because all this projects only be able to access throught VPN connection so we decided not to use firewall. 
-</p>
 
 2. Project Root Path\
 On line 7 as you can see we tell the server which folder that contain the application, in this case the public root project is in `/usr/share/nginx/daidangroup/public`. Make sure that you can access the directory by see the owner of the folder.
