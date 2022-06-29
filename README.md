@@ -13,7 +13,10 @@
     <tr><td>Firewall</td><td>none</td></tr>
 </table>
 
+<p class="text-justify">
 You can connect directly to the server using [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) either in local network or trought VPN connection. For the VPN connection detail you can ask to the Administrator. Here is the example of PuTTY configuration:
+</p>
+
 
 ![alt text](/img/putty-configuration.png "putty configuration")
 
