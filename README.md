@@ -1,7 +1,7 @@
 [Daidan Projects Documentation](https://github.com/dennykharyan/daidan-documentation "Daidan Projects Documentation")
 
 
-# global configuration
+# Global Configuration
 <table>
     <tr><td>IP Address</td><td>192.168.1.56</td></tr>
     <tr><td>Operation System</td><td>Cent-OS</td></tr>
@@ -14,10 +14,10 @@
 </table>
 
 You can connect directly to the server using [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) either in local network or trought VPN connection. For the VPN connection detail you can ask to the Administrator. Here is the example of PuTTY configuration:
-------
+
 ![alt text](/img/putty-configuration.png "putty configuration")
 
-# project root directory
+# The Project Root Directory
 The project root directory is in 
 ```
 /usr/share/nginx/
@@ -33,16 +33,19 @@ and
 /usr/share/nginx/daidangroup-finacc
 ```
 
-each directory stored in [daidangroup](https://github.com/itdaidangrup/daidangroup) and [daidangroup-finacc](https://github.com/itdaidangrup/daidangroup-finacc). You can login with `it@daidangrup.com` github account to see what's in it.
+Each directory stored in [daidangroup](https://github.com/itdaidangrup/daidangroup) and [daidangroup-finacc](https://github.com/itdaidangrup/daidangroup-finacc). You can login with `it@daidangrup.com` github account to see what's in it.
 
-## creating new directory
+## Creating New Directory
 Typically we sync the project directory with github so we can easly pull from the repository. For example we will create new peoject directory in project root directory using 
 
 ```
 git clone https://github.com/itdaidangrup/daidan.git
 ```
 
-Git will create new folder exactly same with repository name. When all file successfully cloned to local repository, then you should make a configuration file so the web server can managed to access the directory. The config file is placed in 
+Git will create new folder exactly same with repository name.
+
+## Creating New Configuration File
+When all file successfully cloned to local repository, then you should make a configuration file so the web server can managed to access the directory. The config file is placed in 
 
 ```
 /etc/nginx/conf.d/
@@ -56,6 +59,14 @@ nano /etc/nginx/conf.d/daidan.com.conf
 
 Here is the example of basic configuration file
 ![alt text](/img/conf-d-example.PNG "Config file example")
+
+1. Port Listening
+As you can see, the configuration file contain information for where the project stored and what port should user use to access the application. Because we using PHP as programming language, we should still listen to port 80 as written on line 3. In the next line you can add which port the user can access the application, in this example we using port 8006. You dont need to setup the firewall in this documentation, because all this projects only be able to access throught VPN connection so we decided not to use firewall. 
+2. Project Root Path
+On line 7 as you can see we tell the server which folder that contain the application, in this case the public root project is in `/usr/share/nginx/daidangroup/public`. Make sure that you can access the directory by see the owner of the folder.
+3. Acceptable File Format
+On The next line we defined what kind of acceptable file format. If the new project is using another programming language you can set the entry point with this way. You can read the documentation of which programming language you used.
+
 # database
 # efiling directory
 # /usr/share/nginx/daidangroup
