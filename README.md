@@ -34,8 +34,6 @@ and
 /usr/share/nginx/daidangroup-finacc
 ```
 
-<p style="text-align: justify; text-justify: inter-word;">
-</p>
 Each directory stored in [daidangroup](https://github.com/itdaidangrup/daidangroup) and [daidangroup-finacc] (https://github.com/itdaidangrup/daidangroup-finacc). You can login with `it@daidangrup.com` github account to see what's in it.
 
 
@@ -90,10 +88,12 @@ Here is the capture of the database from my local machine at this time.
 Currently we use same database for every project, so if you change something in a table, it might be affect to all projects. You need to understand both project structure first before make any change in any table.
 
 # Efiling Directory
+
 ## How The Efiling Work
 We using FTP Server to transfer all file that needed in both projects and the root directory is in
 ![alt text](/img/ftp-root.png "FTP Root Directory")
 Every single file that we store in here is encrypted with specifict method that operated in specifict application method with no format, the format and the original file name itself is stored in database. So if anyone who doesnt authorize to access the file will be unable to open the file. We usually allow .pdf format file, .docx format file, and .xls format file to be able to uploaded to server, but it can be change depending on the purpose of the method works.
+
 ## Accessing The Efiling Directory
 Here is the detail of the FTP configuration
 <table>
