@@ -36,16 +36,26 @@ and
 each directory stored in [daidangroup](https://github.com/itdaidangrup/daidangroup) and [daidangroup-finacc](https://github.com/itdaidangrup/daidangroup-finacc). You can login with `it@daidangrup.com` github account to see what's in it.
 
 ## creating new directory
-typically we sync the project directory with github so we can easly pull from the repository. For example we will create new peoject directory in project root directory using 
-```
-git clone https://github.com/itdaidangrup/daidangroup.git
-```
-the git will create new folder exactly same with repository name
+Typically we sync the project directory with github so we can easly pull from the repository. For example we will create new peoject directory in project root directory using 
 
-When all file successfully cloned to local repository, then you should make a configuration file so the web server can managed to access the directory. The config file is placed in 
+```
+git clone https://github.com/itdaidangrup/daidan.git
+```
+
+Git will create new folder exactly same with repository name. When all file successfully cloned to local repository, then you should make a configuration file so the web server can managed to access the directory. The config file is placed in 
+
 ```
 /etc/nginx/conf.d/
 ```
+
+The config file should formated .conf as default. To create new configuration file use
+
+```
+nano /etc/nginx/conf.d/daidan.com.conf
+```
+
+Here is the example of basic configuration file
+![alt text](/img/conf-d-example.PNG "Config file example")
 # database
 # efiling directory
 # /usr/share/nginx/daidangroup
