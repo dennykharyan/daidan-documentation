@@ -14,7 +14,7 @@
 </table>
 
 <p class="text-justify">
-You can connect directly to the server using <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a> [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) either in local network or trought VPN connection. For the VPN connection detail you can ask to the Administrator. Here is the example of PuTTY configuration:
+You can connect directly to the server using <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a> either in local network or trought VPN connection. For the VPN connection detail you can ask to the Administrator. Here is the example of PuTTY configuration:
 </p>
 
 
