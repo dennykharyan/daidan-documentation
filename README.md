@@ -83,12 +83,20 @@ Currently the database is stored in different engine and different IP Address. Y
 Here is the capture of the database from my local machine at this time.
 ![alt text](/img/databases.PNG "Database")
 
-Currently we use same database for every project, so if you change something in a table, it might bee affect to all projects. You need to understand both project structure first before make any change in any table.
+Currently we use same database for every project, so if you change something in a table, it might be affect to all projects. You need to understand both project structure first before make any change in any table.
 
 # Efiling Directory
 ## How The Efiling Work
 We using FTP Server to transfer all file that needed in both projects and the root directory is in
 ![alt text](/img/ftp-root.png "FTP Root Directory")
+Every single file that we store in here is encrypted with specifict method that operated in specifict application method with no format, the format and the original file name itself is stored in database. So if anyone who doesnt authorize to access the file will be unable to open the file. We usually allow .pdf format file, .docx format file, and .xls format file to be able to uploaded to server, but it can be change depending on the purpose of the method works.
 ## Accessing The Efiling Directory
+Here is the detail of the FTP configuration
+<table>
+    <tr><td>Host</td><td>192.168.1.53</td></tr>
+    <tr><td>Port</td><td>21</td></tr>
+    <tr><td>Username</td><td>root</td></tr>
+    <tr><td>Password</td><td>daidan2018</td></tr>
+</table>
 
 # /usr/share/nginx/daidangroup
