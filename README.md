@@ -104,3 +104,12 @@ Here is the detail of the FTP configuration
 </table>
 
 # /usr/share/nginx/daidangroup
+## UML Diagram
+### Contract Purchase
+1. UML 
+![alt text](/img/contract-purchase.png "Contract Purchase UML")
+
+2. Contract Sales
+3. Purchase
+4. Sales
+5. Letter of Creadit
