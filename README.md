@@ -1,6 +1,3 @@
-[Daidan Projects Documentation](https://github.com/dennykharyan/daidan-documentation "Daidan Projects Documentation")
-
-
 # Global Configuration
 <table>
     <tr><td>IP Address</td><td>192.168.1.56</td></tr>
@@ -106,10 +103,14 @@ Here is the detail of the FTP configuration
 # /usr/share/nginx/daidangroup
 ## UML Diagram
 ### Contract Purchase
-1. UML 
+1. Flowchart
+
+2. UML 
 ![alt text](/img/contract-purchase.png "Contract Purchase UML")
 
-2. Contract Sales
+### Contract Sales
+1. UML
+
 3. Purchase
 4. Sales
 5. Letter of Creadit
